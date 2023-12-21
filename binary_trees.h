@@ -2,7 +2,7 @@
 #define BINARY_TREES_H
 
 #include <stddef.h>  /* Include the standard library header for size_t */
-
+#include <stdbool.h>
 /* Other necessary includes and struct definitions */
 
 /**
