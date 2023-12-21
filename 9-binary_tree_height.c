@@ -4,11 +4,10 @@
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 /**
- * binary_tree_height - measures the height of a binary tree
- * @tree: pointer to the root node of the tree to measure the height.
- * If tree is NULL, your function must return 0
+ * binary_tree_height - Measures the height of a binary tree.
+ * @tree: A pointer to the root node of the tree.
  *
- * Return: the height of the binary tree
+ * Return: The height of the tree, or 0 if the tree is empty.
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
